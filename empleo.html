@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empleo</title>
+</head>
+<body>
+    <form action="">
+        <h2>DATOS:</h2>
+
+        <label for="Nombre y apellidos:">Nombre y apellidos</label>
+        <input type="text" id="Nombre y apellidos" name="Nombre y apellidos">
+        <br><br>
+
+        <label for="Correo electronico">Correo electronico:</label>
+        <input type="email" id="Correo electronico" name="email"required>
+        <br><br>
+        
+        <label for="Fecha de disponibilidad">Fecha de disponibilidad</label>
+        <input type="date" id="Fecha de disponibilidad" name="Fecha de disponibilidad">
+        <br><br>
+        
+        <h2>NIVEL DE ESTUDIOS:</h2>
+        <select name="Nivel" id="Nivel">
+            <option value="">Seleccione una opcion</option>
+            <option value="PR">Primaria</option>
+            <option value="BA">Bachiller</option>
+            <option value="TE">Tecnologo</option>
+            <option value="PR">Profesional</option>
+        </select>
+        <br><br>
+
+        <h2>AÑOS DE EXPERIENCIA:</h2>
+        <label for="Años de experiencia">Años de experiencia:</label>
+        <input type="number" id="Años de experiencia" name="Años de experiencia" min="0" max="50">
+        <br><br>
+
+        <h2>LENGUAJES DE PROGRAMACION:</h2>
+        <input type="checkbox" id="Python" name="Python" required>
+        <label for="Python">Python</label>
+        <input type="checkbox" id="Java" name="Java" required>
+        <label for="Java">Java</label>
+        <input type="checkbox" id="Css" name="Css" required>
+        <label for="Css">Css</label>
+        <br><br>
+
+        
+        <h2>CARTA DE PRESENTACION:</h2>
+        <textarea name="mensaje" id="mensaje" rows="4" cols="50" placeholder="Escribe aqui...."></textarea>
+        <br><br>
+
+        <button type="submit">Enviar Formulario</button>
+        <button type="reset">Limpiar Formulario</button>
+
+
+
+        
+    </form>
+    
+</body>
+</html>
