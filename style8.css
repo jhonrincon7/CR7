@@ -1,0 +1,42 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    font-weight: 200;
+    font-style: normal;
+    color: white;
+}
+
+.hero {
+    background-image: url("kratos.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-color: black(0, 0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero-container{
+    color: aliceblue;
+}
+
+.btn-primario {
+    background-color: black;
+    color: red;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    height: 80px;
+}
+.btn-primario:hover {
+    background-color: rgb(0, 0, 0);
+    transform: translate(-5px);
+    box-shadow: opx 10px 15px blueviolet(0, 0, 0, 0.3);
+    background-image: url("God_of_War_Logo.png");
+    height: 80px;
+}
